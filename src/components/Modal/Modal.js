@@ -2,8 +2,6 @@ import { useEffect } from 'react';
 
 import css from './Modal.module.css';
 
-import React from 'react';
-
 const Modal = ({ close, baseImg, alt }) => {
   const handleClick = e => {
     if (e.target === e.currentTarget) {
